@@ -40,4 +40,5 @@ OpenAI API · Backboard API · Streamlit · Flutter · Docker
 
 ## 🤝 Connect
 
-[💼 LinkedIn](https://www.linkedin.com/in/mithunselvananthan/) · [🔍 usescout.streamlit.app](https://usescout.streamlit.app)
+[💼 LinkedIn](https://www.linkedin.com/in/mithunselvananthan/) 
+[✉️ Email](mithunselvananthan5@gmail.com)
