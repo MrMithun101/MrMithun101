@@ -8,13 +8,13 @@ I build things that ship. Production ML in aerospace, hackathon wins, and deploy
 
 **[🔍 Scout](https://usescout.streamlit.app)** — Competitive intelligence for founders who can't afford a research analyst. Four AI agents search the live web, synthesize findings, and remember everything across sessions via Backboard persistent memory. Built and deployed in under 48 hours.
 
-**🦯 BlindSpot** — A real product we are actively building. Started as a hackathon project — a navigation app for the visually impaired using computer vision, Google Gemini, haptic feedback, and real-time voice guidance for urban environments. We won Best Use of Backboard.io and Best Use of ElevenLabs. Now we're integrating custom hardware to bring it to market as a full assistive technology product.
+**[🦯BlindSpot](https://github.com/benz16107/BlindSpot)** — A real product we are actively building. Started as a hackathon project — a navigation app for the visually impaired using computer vision, Google Gemini, haptic feedback, and real-time voice guidance for urban environments. We won Best Use of Backboard.io and Best Use of ElevenLabs. Now we're integrating custom hardware to bring it to market as a full assistive technology product.
 
 ---
 
 ## 💼 Work Experience
 
-At my current role I built a machine learning model that predicts the likelihood of a part being non-conforming before it reaches inspection — using data from previous operations, supplier performance, historical run data, and key production metrics. The model gives quality inspectors a prioritized view of which parts deserve the closest attention, freeing up time for Root Cause and Corrective Action work rather than manually triaging every part.
+At my current role at De Havilland Aircraft of Canada I built a machine learning model that predicts the likelihood of a part being non-conforming before it reaches inspection — using data from previous operations, supplier performance, historical run data, and key production metrics. The model gives quality inspectors a prioritized view of which parts deserve the closest attention, freeing up time for Root Cause and Corrective Action work rather than manually triaging every part.
 
 Also built the Python data pipelines that power it — extracting, cleaning, and joining Epicor SQL datasets into time-aware training tables, with careful attention to data leakage prevention and feature engineering from part metadata, work-center history, and rolling defect trends.
 
