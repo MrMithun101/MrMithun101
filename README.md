@@ -1,44 +1,48 @@
 # Mithun Selvananthan
-
-I build things that ship. Production ML in aerospace, hackathon wins, and deployed AI tools — before finishing my degree.
+Systems-focused engineer. C++, backend, and deployed AI tools — before finishing my degree.
 
 ---
 
 ## 🚀 What I'm Building
 
-**[🔍 Scout](https://usescout.streamlit.app)** — Competitive intelligence for founders who can't afford a research analyst. Four AI agents search the live web, synthesize findings, and remember everything across sessions via Backboard persistent memory. Built and deployed in under 48 hours.
+**[⚙️ TCP Load Balancer](https://github.com/MrMithun101/cpp-systems)** — A production-grade Layer 4 load balancer written in C++ from scratch. Implements a full TCP listener, bidirectional proxying, and an epoll-based event loop for non-blocking I/O on Linux. No frameworks — raw socket API, file descriptors, and kernel-level concurrency primitives. The foundation for Loadtest.live — a browser-based load testing platform I'm building on top of it.
 
-**[🦯BlindSpot](https://github.com/benz16107/BlindSpot)** — A real product we are actively building. Started as a hackathon project — a navigation app for the visually impaired using computer vision, Google Gemini, haptic feedback, and real-time voice guidance for urban environments. We won Best Use of Backboard.io and Best Use of ElevenLabs. Now we're integrating custom hardware to bring it to market as a full assistive technology product.
+**[🐛 CI/CD Debugger](https://github.com/MrMithun101/cicd-debugger)** — An AI-powered CI/CD failure triage agent. Feed it a failing GitHub Actions log — it classifies the failure, retrieves similar historical failures from a ChromaDB vector store, and uses Cerebras inference to generate a root cause hypothesis, confidence score, and actionable fix. Exposed as a native Claude Code tool via MCP so you can triage failures without leaving your editor. 68 tests, all offline.
+
+**[🦯 BlindSpot](https://github.com/benz16107/BlindSpot)** — Real-time AI navigation app for visually impaired users using computer vision, Google Gemini, and voice guidance. Won Best Use of Backboard.io and Best Use of ElevenLabs at McMaster's GDG Mac-A-Thon.
+
+**[🌸 Flourish](https://github.com/MrMithun101)** — NFC-triggered iOS App Clip for tap-to-donate flows with Apple Pay and a meal-framed impact model. React charity coordinator dashboard deployed on Vercel. Built at Hack Canada 2026.
+
 
 ---
 
 ## 💼 Work Experience
 
-At my current role at De Havilland Aircraft of Canada I built a machine learning model that predicts the likelihood of a part being non-conforming before it reaches inspection — using data from previous operations, supplier performance, historical run data, and key production metrics. The model gives quality inspectors a prioritized view of which parts deserve the closest attention, freeing up time for Root Cause and Corrective Action work rather than manually triaging every part.
+At De Havilland Aircraft of Canada I built Python ETL pipelines that extracted, cleaned, and joined Epicor SQL datasets — handling feature engineering from part metadata, work-center history, and rolling defect trends. Also automated reporting workflows and developed Power BI dashboards used by quality engineering teams.
 
-Also built the Python data pipelines that power it — extracting, cleaning, and joining Epicor SQL datasets into time-aware training tables, with careful attention to data leakage prevention and feature engineering from part metadata, work-center history, and rolling defect trends.
-
-In aerospace, when the model is wrong, the consequences are real. That environment shaped how I think about building software.
+In aerospace, when software is wrong, the consequences are real. That environment shaped how I think about building.
 
 ---
 
 ## 🛠️ Tech Stack
 
-Python · JavaScript · TypeScript · React · HTML · CSS · FastAPI · Django · scikit-learn · SQL · PostgreSQL
-OpenAI API · Backboard API · Streamlit · Flutter · Docker
+**Systems:** C++ · Linux · TCP/IP · epoll · POSIX sockets  
+**Backend:** Python · FastAPI · Node.js · TypeScript · PostgreSQL · SQL  
+**Frontend:** React · JavaScript · HTML · CSS · Swift  
+**ML/Data:** ChromaDB · sentence-transformers · ETL pipelines · Power BI  
+**Tools:** Docker · Git · Flutter · OpenAI API · Anthropic API · Cerebras
 
 ---
 
 ## 🏆 Highlights
-
-- 🥇 2× Hackathon Winner — Best Use of Backboard.io, Best Use of ElevenLabs
-- ✈️ Production ML deployed in aerospace manufacturing
+- 🏗️ Building a C++ TCP load balancer from scratch — raw sockets, epoll, Linux systems programming
+- 🥇 2× Hackathon Winner — Best Use of Backboard.io, Best Use of ElevenLabs (GDG Mac-A-Thon)
+- ✈️ ETL pipelines and automated reporting in production at De Havilland Aircraft of Canada
 - 🎓 McMaster University — Automation Systems Engineering
 - 📍 Ontario, Canada
 
 ---
 
 ## 🤝 Connect
-
-[💼 LinkedIn](https://www.linkedin.com/in/mithunselvananthan/) 
-✉️ Email: mithunselvananthan5@gmail.com
+[💼 LinkedIn](https://www.linkedin.com/in/mithunselvananthan/)  
+✉️ [mithunselvananthan5@gmail.com](mailto:mithunselvananthan5@gmail.com)
