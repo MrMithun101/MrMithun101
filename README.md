@@ -5,7 +5,7 @@ Systems-focused engineer. C++, backend, and deployed AI tools — before finishi
 
 ## 🚀 What I'm Building
 
-**[⚙️ TCP Load Balancer]((https://github.com/MrMithun101/TCP-Load-Balancer))** — A production-grade Layer 4 load balancer written in C++ from scratch. Implements a full TCP listener, bidirectional proxying, and an epoll-based event loop for non-blocking I/O on Linux. No frameworks — raw socket API, file descriptors, and kernel-level concurrency primitives. The foundation for Loadtest.live — a browser-based load testing platform I'm building on top of it.
+**[⚙️ TCP Load Balancer](https://github.com/MrMithun101/TCP-Load-Balancer)** — A production-grade Layer 4 load balancer written in C++ from scratch. Implements a full TCP listener, bidirectional proxying, and an epoll-based event loop for non-blocking I/O on Linux. No frameworks — raw socket API, file descriptors, and kernel-level concurrency primitives. The foundation for Loadtest.live — a browser-based load testing platform I'm building on top of it.
 
 **[🐛 CI/CD Debugger](https://github.com/MrMithun101/cicd-debugger)** — An AI-powered CI/CD failure triage agent. Feed it a failing GitHub Actions log — it classifies the failure, retrieves similar historical failures from a ChromaDB vector store, and uses Cerebras inference to generate a root cause hypothesis, confidence score, and actionable fix. Exposed as a native Claude Code tool via MCP so you can triage failures without leaving your editor. 68 tests, all offline.
 
